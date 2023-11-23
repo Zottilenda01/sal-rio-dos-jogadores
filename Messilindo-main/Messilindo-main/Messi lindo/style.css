@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#F686BC;
+    font-size: 20px;
+    font-weight: 10px;
+    color:white;
+}
+
+.principal{
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container{ 
+    height: 120vh;
+    display:grid;
+    grid-template-columns: 50% 30%;
+}
+.container_botao{
+    text-decoration: none;
+    background-color: #4086f0;
+    border-radius:5px;
+    padding: 1em;
+    color:#fff;
+    display: block;
+}
+.botao_secundario{
+    text-decoration: none;
+    background-color:transparent;
+    border:2px solid White;
+    font-size: 20px;
+}
+.container_aviso{
+    font-size: 10px;
+}
+.container_caixa{
+    margin: 1em 1em;
+}
